@@ -41,6 +41,6 @@ Apache-2.0.
 
 ## Branches and releases
 
-Work on `develop`, open a pull request to `main` (`ci`: tests on Python 3.10/3.12/3.13, build). Merging into `main`
+Work on `develop`, open a pull request to `main` (`ci` runs on the pull request only: tests on Python 3.10/3.12/3.13, build). Merging into `main`
 publishes `pyproject.toml`'s version to PyPI through trusted publishing (environment `pypi`, no token) and tags
 `vX.Y.Z`. Bump the version on `develop` before merging.
